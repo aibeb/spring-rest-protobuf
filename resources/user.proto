@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package user;
+
+option java_package = "com.aibeb.test";
+option java_outer_classname = "UserProto";
+ 
+message User {
+    string name = 1;
+    string email  = 2;
+}
